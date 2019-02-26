@@ -285,6 +285,32 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named publisher_practice
+
+# Build rule for target.
+publisher_practice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher_practice
+.PHONY : publisher_practice
+
+# fast build rule for target.
+publisher_practice/fast:
+	$(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/build
+.PHONY : publisher_practice/fast
+
+#=============================================================================
+# Target rules for targets named node1
+
+# Build rule for target.
+node1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 node1
+.PHONY : node1
+
+# fast build rule for target.
+node1/fast:
+	$(MAKE) -f my_package/CMakeFiles/node1.dir/build.make my_package/CMakeFiles/node1.dir/build
+.PHONY : node1/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_py
 
 # Build rule for target.
@@ -467,6 +493,19 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named publisher
+
+# Build rule for target.
+publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	$(MAKE) -f my_package/CMakeFiles/publisher.dir/build.make my_package/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -527,6 +566,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... publisher_practice"
+	@echo "... node1"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"
@@ -541,6 +582,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... publisher"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"

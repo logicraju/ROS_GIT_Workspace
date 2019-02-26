@@ -168,6 +168,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_package/CMakeFiles/publisher_practice.dir/rule:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/publisher_practice.dir/rule
+.PHONY : my_package/CMakeFiles/publisher_practice.dir/rule
+
+# Convenience name for target.
+publisher_practice: my_package/CMakeFiles/publisher_practice.dir/rule
+
+.PHONY : publisher_practice
+
+# fast build rule for target.
+publisher_practice/fast:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/build
+.PHONY : publisher_practice/fast
+
+# Convenience name for target.
+my_package/CMakeFiles/node1.dir/rule:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/node1.dir/rule
+.PHONY : my_package/CMakeFiles/node1.dir/rule
+
+# Convenience name for target.
+node1: my_package/CMakeFiles/node1.dir/rule
+
+.PHONY : node1
+
+# fast build rule for target.
+node1/fast:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/node1.dir/build.make my_package/CMakeFiles/node1.dir/build
+.PHONY : node1/fast
+
+# Convenience name for target.
 my_package/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : my_package/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -378,6 +408,21 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+my_package/CMakeFiles/publisher.dir/rule:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/publisher.dir/rule
+.PHONY : my_package/CMakeFiles/publisher.dir/rule
+
+# Convenience name for target.
+publisher: my_package/CMakeFiles/publisher.dir/rule
+
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher.dir/build.make my_package/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
+
+# Convenience name for target.
 my_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : my_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -449,6 +494,87 @@ src/hello_world.cpp.s:
 	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/hello_world.dir/build.make my_package/CMakeFiles/hello_world.dir/src/hello_world.cpp.s
 .PHONY : src/hello_world.cpp.s
 
+src/node1.o: src/node1.cpp.o
+
+.PHONY : src/node1.o
+
+# target to build an object file
+src/node1.cpp.o:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/node1.dir/build.make my_package/CMakeFiles/node1.dir/src/node1.cpp.o
+.PHONY : src/node1.cpp.o
+
+src/node1.i: src/node1.cpp.i
+
+.PHONY : src/node1.i
+
+# target to preprocess a source file
+src/node1.cpp.i:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/node1.dir/build.make my_package/CMakeFiles/node1.dir/src/node1.cpp.i
+.PHONY : src/node1.cpp.i
+
+src/node1.s: src/node1.cpp.s
+
+.PHONY : src/node1.s
+
+# target to generate assembly for a file
+src/node1.cpp.s:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/node1.dir/build.make my_package/CMakeFiles/node1.dir/src/node1.cpp.s
+.PHONY : src/node1.cpp.s
+
+src/publisher.o: src/publisher.cpp.o
+
+.PHONY : src/publisher.o
+
+# target to build an object file
+src/publisher.cpp.o:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher.dir/build.make my_package/CMakeFiles/publisher.dir/src/publisher.cpp.o
+.PHONY : src/publisher.cpp.o
+
+src/publisher.i: src/publisher.cpp.i
+
+.PHONY : src/publisher.i
+
+# target to preprocess a source file
+src/publisher.cpp.i:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher.dir/build.make my_package/CMakeFiles/publisher.dir/src/publisher.cpp.i
+.PHONY : src/publisher.cpp.i
+
+src/publisher.s: src/publisher.cpp.s
+
+.PHONY : src/publisher.s
+
+# target to generate assembly for a file
+src/publisher.cpp.s:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher.dir/build.make my_package/CMakeFiles/publisher.dir/src/publisher.cpp.s
+.PHONY : src/publisher.cpp.s
+
+src/publisher_practice.o: src/publisher_practice.cpp.o
+
+.PHONY : src/publisher_practice.o
+
+# target to build an object file
+src/publisher_practice.cpp.o:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/src/publisher_practice.cpp.o
+.PHONY : src/publisher_practice.cpp.o
+
+src/publisher_practice.i: src/publisher_practice.cpp.i
+
+.PHONY : src/publisher_practice.i
+
+# target to preprocess a source file
+src/publisher_practice.cpp.i:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/src/publisher_practice.cpp.i
+.PHONY : src/publisher_practice.cpp.i
+
+src/publisher_practice.s: src/publisher_practice.cpp.s
+
+.PHONY : src/publisher_practice.s
+
+# target to generate assembly for a file
+src/publisher_practice.cpp.s:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/src/publisher_practice.cpp.s
+.PHONY : src/publisher_practice.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,7 +584,9 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... publisher_practice"
 	@echo "... test"
+	@echo "... node1"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -476,12 +604,22 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... publisher"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... src/hello_world.o"
 	@echo "... src/hello_world.i"
 	@echo "... src/hello_world.s"
+	@echo "... src/node1.o"
+	@echo "... src/node1.i"
+	@echo "... src/node1.s"
+	@echo "... src/publisher.o"
+	@echo "... src/publisher.i"
+	@echo "... src/publisher.s"
+	@echo "... src/publisher_practice.o"
+	@echo "... src/publisher_practice.i"
+	@echo "... src/publisher_practice.s"
 .PHONY : help
 
 

@@ -205,3 +205,27 @@ add_dependencies(hello_world ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORT
 target_link_libraries(hello_world
   ${catkin_LIBRARIES}
 )
+
+add_executable(node1
+  src/node1.cpp
+)
+add_dependencies(node1 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(node1
+  ${catkin_LIBRARIES}
+)
+
+add_executable(publisher
+  src/publisher.cpp
+)
+add_dependencies(publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(publisher
+  ${catkin_LIBRARIES}
+)
+
+add_executable(publisher_practice
+  src/publisher_practice.cpp
+)
+add_dependencies(publisher_practice ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(publisher_practice
+  ${catkin_LIBRARIES}
+)
