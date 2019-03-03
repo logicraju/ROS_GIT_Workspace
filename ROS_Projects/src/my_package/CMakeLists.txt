@@ -229,3 +229,19 @@ add_dependencies(publisher_practice ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin
 target_link_libraries(publisher_practice
   ${catkin_LIBRARIES}
 )
+
+add_executable(subscriber
+  src/subscriber.cpp
+)
+add_dependencies(subscriber ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(subscriber
+  ${catkin_LIBRARIES}
+)
+
+add_executable(subscriber_practice
+  src/subscriber_practice.cpp
+)
+add_dependencies(subscriber_practice ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(subscriber_practice
+  ${catkin_LIBRARIES}
+)

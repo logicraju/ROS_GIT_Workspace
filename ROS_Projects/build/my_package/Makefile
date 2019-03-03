@@ -168,6 +168,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_package/CMakeFiles/subscriber_practice.dir/rule:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/subscriber_practice.dir/rule
+.PHONY : my_package/CMakeFiles/subscriber_practice.dir/rule
+
+# Convenience name for target.
+subscriber_practice: my_package/CMakeFiles/subscriber_practice.dir/rule
+
+.PHONY : subscriber_practice
+
+# fast build rule for target.
+subscriber_practice/fast:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber_practice.dir/build.make my_package/CMakeFiles/subscriber_practice.dir/build
+.PHONY : subscriber_practice/fast
+
+# Convenience name for target.
+my_package/CMakeFiles/subscriber.dir/rule:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/subscriber.dir/rule
+.PHONY : my_package/CMakeFiles/subscriber.dir/rule
+
+# Convenience name for target.
+subscriber: my_package/CMakeFiles/subscriber.dir/rule
+
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber.dir/build.make my_package/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
+
+# Convenience name for target.
 my_package/CMakeFiles/publisher_practice.dir/rule:
 	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f CMakeFiles/Makefile2 my_package/CMakeFiles/publisher_practice.dir/rule
 .PHONY : my_package/CMakeFiles/publisher_practice.dir/rule
@@ -575,6 +605,60 @@ src/publisher_practice.cpp.s:
 	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/publisher_practice.dir/build.make my_package/CMakeFiles/publisher_practice.dir/src/publisher_practice.cpp.s
 .PHONY : src/publisher_practice.cpp.s
 
+src/subscriber.o: src/subscriber.cpp.o
+
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber.dir/build.make my_package/CMakeFiles/subscriber.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber.dir/build.make my_package/CMakeFiles/subscriber.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber.dir/build.make my_package/CMakeFiles/subscriber.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
+src/subscriber_practice.o: src/subscriber_practice.cpp.o
+
+.PHONY : src/subscriber_practice.o
+
+# target to build an object file
+src/subscriber_practice.cpp.o:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber_practice.dir/build.make my_package/CMakeFiles/subscriber_practice.dir/src/subscriber_practice.cpp.o
+.PHONY : src/subscriber_practice.cpp.o
+
+src/subscriber_practice.i: src/subscriber_practice.cpp.i
+
+.PHONY : src/subscriber_practice.i
+
+# target to preprocess a source file
+src/subscriber_practice.cpp.i:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber_practice.dir/build.make my_package/CMakeFiles/subscriber_practice.dir/src/subscriber_practice.cpp.i
+.PHONY : src/subscriber_practice.cpp.i
+
+src/subscriber_practice.s: src/subscriber_practice.cpp.s
+
+.PHONY : src/subscriber_practice.s
+
+# target to generate assembly for a file
+src/subscriber_practice.cpp.s:
+	cd /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build && $(MAKE) -f my_package/CMakeFiles/subscriber_practice.dir/build.make my_package/CMakeFiles/subscriber_practice.dir/src/subscriber_practice.cpp.s
+.PHONY : src/subscriber_practice.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -584,6 +668,8 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... subscriber_practice"
+	@echo "... subscriber"
 	@echo "... publisher_practice"
 	@echo "... test"
 	@echo "... node1"
@@ -620,6 +706,12 @@ help:
 	@echo "... src/publisher_practice.o"
 	@echo "... src/publisher_practice.i"
 	@echo "... src/publisher_practice.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
+	@echo "... src/subscriber_practice.o"
+	@echo "... src/subscriber_practice.i"
+	@echo "... src/subscriber_practice.s"
 .PHONY : help
 
 

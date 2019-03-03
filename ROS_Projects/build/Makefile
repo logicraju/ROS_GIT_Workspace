@@ -285,6 +285,32 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named subscriber_practice
+
+# Build rule for target.
+subscriber_practice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber_practice
+.PHONY : subscriber_practice
+
+# fast build rule for target.
+subscriber_practice/fast:
+	$(MAKE) -f my_package/CMakeFiles/subscriber_practice.dir/build.make my_package/CMakeFiles/subscriber_practice.dir/build
+.PHONY : subscriber_practice/fast
+
+#=============================================================================
+# Target rules for targets named subscriber
+
+# Build rule for target.
+subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	$(MAKE) -f my_package/CMakeFiles/subscriber.dir/build.make my_package/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
+
+#=============================================================================
 # Target rules for targets named publisher_practice
 
 # Build rule for target.
@@ -566,6 +592,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... subscriber_practice"
+	@echo "... subscriber"
 	@echo "... publisher_practice"
 	@echo "... node1"
 	@echo "... roscpp_generate_messages_py"

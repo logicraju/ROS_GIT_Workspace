@@ -38,6 +38,8 @@
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/install/strip.dir
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/install/local.dir
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/subscriber_practice.dir
+/home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/subscriber.dir
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/publisher_practice.dir
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/test.dir
 /home/rajesh/ROS_GIT_Workspace/ROS_Projects/build/my_package/CMakeFiles/node1.dir
