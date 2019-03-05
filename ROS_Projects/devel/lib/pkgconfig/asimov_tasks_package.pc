@@ -1,0 +1,8 @@
+prefix=/home/rajesh/ROS_GIT_Workspace/ROS_Projects/devel
+
+Name: asimov_tasks_package
+Description: Description of asimov_tasks_package
+Version: 0.0.0
+Cflags: -I/home/rajesh/ROS_GIT_Workspace/ROS_Projects/devel/include
+Libs: -L/home/rajesh/ROS_GIT_Workspace/ROS_Projects/devel/lib 
+Requires: message_runtime

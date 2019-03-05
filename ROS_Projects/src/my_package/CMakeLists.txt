@@ -245,3 +245,19 @@ add_dependencies(subscriber_practice ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catki
 target_link_libraries(subscriber_practice
   ${catkin_LIBRARIES}
 )
+
+add_executable(activity1_pub
+  src/activity1_pub.cpp
+)
+add_dependencies(activity1_pub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(activity1_pub
+  ${catkin_LIBRARIES}
+)
+
+add_executable(activity1_pub_sub
+  src/activity1_pub_sub.cpp
+)
+add_dependencies(activity1_pub_sub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(activity1_pub_sub
+  ${catkin_LIBRARIES}
+)

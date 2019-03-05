@@ -21,7 +21,7 @@ flags = [
 '-isystem',
 '/home/rajesh/ROS_GIT_Workspace/ROS_Projects/devel/include',
 '-isystem',
-'/home/rajesh/ROS_GIT_Workspace/ROS_Projects/src/CMakeLists.txt/include'
+'/home/rajesh/ROS_GIT_Workspace/ROS_Projects/src/my_package/include'
 ]
 
 compilation_database_folder = ''

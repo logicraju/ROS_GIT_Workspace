@@ -1,0 +1,8 @@
+prefix=/home/rajesh/ROS_GIT_Workspace/Asimov_Workspace/devel
+
+Name: assignment
+Description: Description of assignment
+Version: 0.0.0
+Cflags: -I/home/rajesh/ROS_GIT_Workspace/Asimov_Workspace/devel/include
+Libs: -L/home/rajesh/ROS_GIT_Workspace/Asimov_Workspace/devel/lib 
+Requires: message_runtime

@@ -1,0 +1,2 @@
+set(messages_MESSAGE_FILES "/home/rajesh/ROS_GIT_Workspace/ROS_Projects/src/messages/msg/calc_message.msg")
+set(messages_SERVICE_FILES "")

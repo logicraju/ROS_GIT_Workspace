@@ -1,2 +1,2 @@
-my_package
+asimov_tasks_package:my_package
 -DCATKIN_DEVEL_PREFIX=/home/rajesh/ROS_GIT_Workspace/ROS_Projects/devel -DCMAKE_INSTALL_PREFIX=/home/rajesh/ROS_GIT_Workspace/ROS_Projects/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+assignment
+-DCATKIN_DEVEL_PREFIX=/home/rajesh/ROS_GIT_Workspace/Asimov_Workspace/devel -DCMAKE_INSTALL_PREFIX=/home/rajesh/ROS_GIT_Workspace/Asimov_Workspace/install -G Unix Makefiles

@@ -1,0 +1,5 @@
+float64 num1
+float64 num2
+int64 operator_id
+---
+float64 result
