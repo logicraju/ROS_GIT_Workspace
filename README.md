@@ -2,6 +2,7 @@
 #### Note: The task solutions are located within Asimov_Workspace directory.
 
 I. Task 1
+
 To run the solution for Task1, do the following:
 
   a. CPP Solution
@@ -17,6 +18,7 @@ To run the solution for Task1, do the following:
   - Run rosrun assignment calc_client_py.py
   
 II. Task 2
+
 To run the solution for Task2, do the following:
 
   a. CPP Solution
