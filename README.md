@@ -1,6 +1,8 @@
 # Solution - Instructions
 #### Note: The task solutions are located within Asimov_Workspace directory.
 
+First, pull the repository. Then, for each terminal goto Asimov_Workspace directory to execute various nodes.
+
 I. Task 1
 
 To run the solution for Task1, do the following:
