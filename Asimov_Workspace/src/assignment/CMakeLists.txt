@@ -230,3 +230,11 @@ add_dependencies(publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED
 target_link_libraries(publisher
   ${catkin_LIBRARIES}
 )
+
+add_executable(husky_client
+  src/husky_client.cpp
+)
+add_dependencies(husky_client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(husky_client
+  ${catkin_LIBRARIES}
+)
