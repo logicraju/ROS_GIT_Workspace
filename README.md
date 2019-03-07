@@ -43,4 +43,5 @@ To run the solution for Task2, do the following:
 
   - Run roslaunch husky_gazebo husky_empty_world.launch in a terminal
   - Run rosrun assignment husky_client in another terminal
+    
     (The robot movement can be visualized in gazebo)
